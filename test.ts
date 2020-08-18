@@ -1,4 +1,4 @@
-import { getIPLocation } from "./mod.ts";
+import { getIPLocation } from "https://deno.land/x/ip_location/mod.ts";
 
 // for the current visitor IP
 console.log(await getIPLocation()) 
